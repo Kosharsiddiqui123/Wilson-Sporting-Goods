@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilson Sporting Goods | official website</title>
+    <link rel="shortcut icon" href="images/Favicon.png" type="image/x-icon" >
+    <link rel="stylesheet" href="pages_css/gallery.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="pages_css/home.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- marquee -->
+    <div class="container-fluid"><marquee behavior="Animation" scrollamount="10" direction="left"> GET 70% OFF JUST FOR TODAY</marquee>
+        <!-- marquee -->
+
+
+
+        <!-- navbar -->
+ <!-- Topbar Start -->
+ <div class="container-fluid bg-light text-black py-2 px-0 d-none d-lg-block" >
+    <div class="row gx-0 align-items-center">
+        <div class="col-lg-7 px-5 text-start">
+            <div class="h-100 d-inline-flex align-items-center me-4">
+              <i class="fa-solid fa-phone" style="font-size: 20px; border: none;"onclick="dialNumber()"></i>
+                <small onclick="dialNumber()" style="cursor: pointer;">+012 345 6789</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center me-4">
+                <form action="mailto:miniproject@gmail.com">
+                  <button class="fa-solid fa-envelope" style="font-size: 20px; border: none;" ></button> Project@gmail.com
+                  
+                </form>
+                
+            </div>
+        </div>
+        <div class="col-lg-5 px-5 bg-light text-end">
+            <ol class="breadcrumb justify-content-end mb-0">
+                <li class="breadcrumb-item h"><a class="text-black small h" href="register.html">Register</a></li>
+                <li class="breadcrumb-item h"><a class="text-black small h" href="login.html">Login</a></li>
+                <li class="breadcrumb-item h"><a class="text-black small h" href="Feedback.html">Feeback</a></li>
+                <li class="breadcrumb-item h"><a class="text-black small h" href="Contactus.html">Contact</a></li>
+            </ol>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg e navbar-light bg-dark" style="background: #0F2027;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ">
+      <div class="container-fluid">
+        <a class="navbar-brand a" href="#"><img src="images/Website_logo.png" alt="" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link active h" aria-current="page" href="Home.html" style="color: white;">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h" href="Aboutus.html" style="color: white;">ABOUT US </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h" href="Feedback.html" style="color: white;">FEEDBACK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h" href="Gallery.html" style="color: white;">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h" href="Contactus.html" style="color: white;">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h" href="COMPARE.HTML" style="color: white;">COMPARE</a>
+            </li>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+               <img src="junior/junior (8).jpg" alt="" width="100%" style="margin-top: 50px;">
+       
+                
+                 <!-- navbar -->
+
+                  <!-- heading -->
+           <h1 class="display-1"> JUNIOR CRICKET</h1> 
+           <!-- heading -->
+
+           <!-- Search bar start -->
+    <div class="container mt-3">
+      <input type="text" id="searchInput" class="form-control" placeholder="Search products..." onkeyup="searchCards()">
+    </div>
+    <!-- Search bar end -->
+
+     
+           
+    <!-- cards -->
+
+    <div class="container3">
+
+        <div class="row ">
+          
+            
+           <div style="overflow: hidden;">
+            <div class="row m-2" id="dataa"></div>
+        </div>
+        
+      </div>
+      
+        </div>
+
+           <!-- Bootstrap Modal -->
+           <div class="modal fade" id="cardModal" tabindex="-1" aria-labelledby="cardModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title " id="cardTitle" style="font-family: serif; text-align: center; font-size: 25px;">Card
+                    Title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img id="cardImage" class="img-fluid mb-3" alt="Card Image"
+                    style="height: 300px; width: 300px; margin-left: 70px;">
+                  <p id="cardDescription" style="margin-bottom: 100px; margin-left: 100px; text-align: center;"></p>
+        
+                  <a href="" id="link" download><button class="btn modalbtn"
+                      style="margin-left: 90px; background-color: #042444; ">DOWNLOAD PDf</button></a>
+                  <a href="payment.html"><button class="btn modalbtn" style="margin-left: 30px; background-color: #042444;">BUY
+                      NOW</button></a>
+        
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- cards -->
+
+
+        
+
+  
+    
+     
+    <!-- footer -->
+    <footer class="bg-body-tertiary text-center"  style="background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+          data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="https://www.facebook.com/"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+    
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="https://www.google.com/"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="https://www.instagram.com/"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="https://www.Linkedin.com/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333;"
+            href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdotnet%2Froslyn%2Fissues%2Fnew%2Fchoose"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05); color: white;">
+        © 2025 Copyright : WilsonSportingGood.com
+        
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- footer -->
+
+
+    <script src="Json_cards/junior.json"></script>
+    <script>
+      // Ensure JSON data is loaded before running the script
+      window.onload = function () {
+          if (typeof data !== "undefined" && Array.isArray(data)) {
+              let dataContainer = document.getElementById("dataa");
+              dataContainer.innerHTML = ""; // Clear existing content
+              for (let a = 0; a < data.length; a++) {
+                  let card = `
+                       <div class="col m-3">
+                              <div class="card" style="width:15rem; height:350px;" onclick="openModal(${a})">
+                                  <img src="${data[a].img}" class="card-img-top" style="width:15rem; height:220px; " alt="...">
+                                  <p class="card-title text-center text-muted" style=" text-align: center; color: #8b6e6e; width:100%; font-size: 14px; margin-top:-30px; margin-left: 60px;">${data[a].title}</p>
+                                  <p class="card-text text-center text-secondary"  style="text-align: center; color: #696969; font-size: 14px; margin-left: 100px;">${data[a].des}</p>
+                              </div>
+                          </div>
+                  `;
+                  dataContainer.innerHTML += card;
+              }
+          } else {
+              console.error("JSON data is not loaded or is incorrect. Ensure 'data' is defined.");
+          }
+      };
+  
+      function openModal(index) {
+        const fileLink = data[index].link;
+  document.getElementById("link").setAttribute("href", fileLink);
+  document.getElementById("link").setAttribute("download", fileLink.split("/").pop());
+          document.getElementById("cardTitle").innerText = data[index].title;
+          document.getElementById("cardDescription").innerText = data[index].des;
+          document.getElementById("cardImage").src = data[index].img;
+          new bootstrap.Modal(document.getElementById("cardModal")).show();
+      }
+  </script>
+  <!-- Add Bootstrap JS (Ensure it's before the closing body tag) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+  function dialNumber() {
+      // Replace this number with the number you want to redial
+      var phoneNumber = "1234567890";
+      window.location.href = "tel:" + phoneNumber;
+  }
+</script>
+
+<script>
+  var x = document.getElementById("output");
+ function getlocation(){
+   if(navigator.geolocation){
+   navigator.geolocation.getCurrentPosition(ShowPosition);
+   }
+   else{
+     x.innerHTML="Browser is not supported";
+   }  
+ }
+ function ShowPosition(postion){
+ x.innerHTML = "latitude is " + postion.coords.latitude;
+ x.innerHTML += "<br/>"
+ x.innerHTML += "longitudeis " + postion.coords.longitude;
+ }
+ </script>
+
+<script>
+  function searchCards() {
+    let input = document.getElementById("searchInput").value.toLowerCase();
+    let cards = document.querySelectorAll("#dataa .col");
+  
+    cards.forEach(card => {
+      let title = card.querySelector(".card-title").innerText.toLowerCase();
+      let description = card.querySelector(".card-text").innerText.toLowerCase();
+  
+      if (title.includes(input) || description.includes(input)) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
+</script>
+</body>
+</html>

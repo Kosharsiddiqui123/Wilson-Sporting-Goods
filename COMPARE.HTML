@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Comparison</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="pages_css/compare.css">      
+</head>
+<body>
+
+  <!-- Marquee -->
+  <div class="container-fluid">
+    <marquee behavior="Animation" scrollamount="10" direction="left">GET 70% OFF JUST FOR TODAY</marquee>
+  </div>
+
+   <!-- Topbar Start -->
+   <div class="container-fluid bg-light text-black py-2 px-0 d-none d-lg-block">
+    <div class="row gx-0 align-items-center">
+      <div class="col-lg-7 px-5 text-start">
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <i class="fa-solid fa-phone" style="font-size: 20px; border: none;" onclick="dialNumber()"></i>
+          <small onclick="dialNumber()" style="cursor: pointer;">+012 345 6789</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <form action="mailto:miniproject@gmail.com">
+            <button class="fa-solid fa-envelope" style="font-size: 20px; border: none;"></button> Project@gmail.com
+
+          </form>
+
+        </div>
+      </div>
+      <div class="col-lg-5 px-5 bg-light text-end">
+        <ol class="breadcrumb justify-content-end mb-0">
+          <li class="breadcrumb-item h"><a class="text-black small h" href="register.html">Register</a></li>
+          <li class="breadcrumb-item h"><a class="text-black small h" href="login.html">Login</a></li>
+          <li class="breadcrumb-item h"><a class="text-black small h" href="Feedback.html">Feeback</a></li>
+          <li class="breadcrumb-item h"><a class="text-black small h" href="Contactus.html">Contact</a></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <!-- Topbar End -->
+
+ <!-- navbar -->
+ <nav class="navbar navbar-expand-lg e navbar-light bg-dark" style="background: #0F2027;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ ">
+  <div class="container-fluid">
+    <a class="navbar-brand a" href="#"><img src="images/Website_logo.png" alt="" class="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto ">
+        <li class="nav-item">
+          <a class="nav-link active h" aria-current="page" href="Home.html" style="color: white;">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h" href="Aboutus.html" style="color: white;">ABOUT US </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h" href="Feedback.html" style="color: white;">FEEDBACK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h" href="Gallery.html" style="color: white;">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h" href="Contactus.html" style="color: white;">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h" href="COMPARE.HTML" style="color: white;">COMPARE</a>
+        </li>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<!-- navbar -->
+
+  <!-- Comparison Section -->
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Select Products to Compare</h2>
+
+    <!-- Dropdowns for Product Selection -->
+    <div class="dropdown-container">
+      <div class="col-md-4">
+        <label for="productSelect1" class="form-label">Select Product 1</label>
+        <select class="form-select" id="productSelect1" onchange="updateComparison()">
+          <option value="">--Select a Product--</option>
+        </select>
+      </div>
+
+      <div class="col-md-4">
+        <label for="productSelect2" class="form-label">Select Product 2</label>
+        <select class="form-select" id="productSelect2" onchange="updateComparison()">
+          <option value="">--Select a Product--</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Selected Cards -->
+    <div class="selected-cards" id="selectedCards">
+      <!-- Cards will be inserted here dynamically below their respective dropdowns -->
+    </div>
+  </div>
+
+       <!-- footer -->
+       <footer class="bg-body-tertiary text-center"  style="background: #0F2027;  /* fallback for old browsers */
+       background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+       background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       ">
+         <!-- Grid container -->
+         <div class="container p-4 pb-0">
+           <!-- Section: Social media -->
+           <section class="mb-4">
+             <!-- Facebook -->
+             <a
+             data-mdb-ripple-init
+               class="btn text-white btn-floating m-1"
+               style="background-color: #3b5998;"
+               href="https://www.facebook.com/"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+             ></a>
+   
+       
+             <!-- Google -->
+             <a
+               data-mdb-ripple-init
+               class="btn text-white btn-floating m-1"
+               style="background-color: #dd4b39;"
+               href="https://www.google.com/"
+               role="button"
+               ><i class="fab fa-google"></i
+             ></a>
+       
+             <!-- Instagram -->
+             <a
+               data-mdb-ripple-init
+               class="btn text-white btn-floating m-1"
+               style="background-color: #ac2bac; "
+               href="https://www.instagram.com/"
+               role="button"
+               ><i class="fab fa-instagram"></i
+             ></a>
+       
+             <!-- Linkedin -->
+             <a
+               data-mdb-ripple-init
+               class="btn text-white btn-floating m-1"
+               style="background-color: #0082ca;"
+               href="https://www.Linkedin.com/"
+               role="button"
+               ><i class="fab fa-linkedin-in"></i
+             ></a>
+             <!-- Github -->
+             <a
+               data-mdb-ripple-init
+               class="btn text-white btn-floating m-1"
+               style="background-color: #333333;"
+               href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdotnet%2Froslyn%2Fissues%2Fnew%2Fchoose"
+               role="button"
+               ><i class="fab fa-github"></i
+             ></a>
+           </section>
+           <!-- Section: Social media -->
+         </div>
+         <!-- Grid container -->
+       
+         <!-- Copyright -->
+         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05); color: white;">
+           © 2025 Copyright : WilsonSportingGood.com
+           
+         </div>
+         <!-- Copyright -->
+       </footer>
+       <!-- footer -->
+
+  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Hardcoded product data array (replace with your actual data)
+    const productData = [
+    {
+        "img" : "feature/feature (1).jpg",
+        "title" : "SS Ton Reserve Edition English Willow Cricket Bat Size 6",
+        "des" : "Rs.74,058.03 PKR",
+
+    },
+    {
+        "img" : "feature/feature (12).jpg",
+        "title" : "Shrey Meta Duffle Wheelie 150 Cricket Kit Bag Colour Black",
+        "des" : "Rs.30,585.25 PKR",
+    },
+    {
+        "img" : "feature/feature (2).jpg",
+        "title" : "Moonwalkr 2.0 Cricket Batting Combo Thigh Guard Pad Navy Blue",
+        "des" : "Rs.7,378.28 PKR",
+
+    },
+    {
+        "img" : "feature/feature (4).jpg",
+        "title" : "Adidas India Cricket Team Jersey Fan Edition Size",
+        "des" : "Rs.2,411.66 PKR",
+    }, 
+    {
+        "img" : "feature/feature (5).jpg",
+        "title" : "SS Millennium Pro White Cricket Batting Gloves Size",
+        "des" : "Rs.14,378.28 PKR",
+    }, 
+    {
+        "img" : "feature/feature (11).jpg",
+        "title" : "Shrey Meta Duffle 100 Cricket Kit Bag Colour Black",
+        "des" : "Rs.34,378.28 PKR",
+    },
+    {
+        "img" : "feature/feature (8).jpg",
+        "title" : "Gray Nicolls MCP Protection Cricket Batting Inner Gloves Mens Size",
+        "des" : "Rs.1,478.28 PKR",
+    }, 
+    {
+        "img" : "feature/feature (9).jpg",
+        "title" : "Moonwalkr 2.0 Cricket Batting Leg Guard Pads Blue",
+        "des" : "Rs.7,378.28 PKR",
+    }, 
+    {
+        "img" : "feature/feature (10).jpg",
+        "title" : "Kookaburra Turf White Official ODI and T20 Cricket Ball",
+        "des" : "Rs.57,378.28 PKR",
+    }, 
+    {
+        "img" : "feature/feature (22).jpg",
+        "title" : "SS Players 3000 English Willow Cricket Bat Size SH",
+        "des" : "Rs.72,378.28 PKR",
+    },
+    {
+        "img" : "feature/feature (13).jpg",
+        "title" : "Adidas Adi Power Vector 20 Spikes Cricket Shoes",
+        "des" : "Rs.32,378.28 PKR",
+
+    },
+    {
+        "img" : "feature/feature (15).jpg",
+        "title" : "Asics Gel Gully 7 White Silver Cricket Shoes",
+        "des" : "Rs.41,378.28 PKR",
+
+    },
+    {
+        "img" : "feature/feature (16).jpg",
+        "title" : "SG Players Xtreme English Willow Cricket Bat Size SH",
+        "des" : "Rs.76,368.28 PKR",
+  
+    }, 
+    {
+        "img" : "feature/feature (17).jpg",
+        "title" : "Gray Nicolls GN83 Scoop Edition English Willow Full Cricket Kit Size SH",
+        "des" : "Rs.410,378.28 PKR",
+
+    },
+    {
+        "img" : "feature/feature (22).jpg",
+        "title" : "SS Players 3000 English Willow Cricket Bat Size SH",
+        "des" : "Rs.72,378.28 PKR",
+ 
+    },
+    {
+        "img" : "feature/feature (6).jpg",
+        "title" : "Shrey Match 3.0 Cricket Helmet",
+        "des" : "Rs.14,781.28 PKR",
+  
+    }
+    ];
+
+    // Populate dropdowns
+    function populateDropdowns() {
+      const productSelect1 = document.getElementById('productSelect1');
+      const productSelect2 = document.getElementById('productSelect2');
+
+      productData.forEach((item, index) => {
+        const option = document.createElement('option');
+        option.value = index;
+        option.textContent = item.title;
+        productSelect1.appendChild(option);
+
+        const clonedOption = option.cloneNode(true);  // Clone option for the second dropdown
+        productSelect2.appendChild(clonedOption);
+      });
+    }
+
+    // Create a product card
+    function createProductCard(product) {
+      const cardCol = document.createElement('div');
+      cardCol.classList.add('card-col');
+
+      const card = document.createElement('div');
+      card.classList.add('card');
+      card.innerHTML = `
+        <img src="${product.img}" class="card-img-top" style="width:15rem; height:220px; margin-top:10px; margin-left:20px;" alt="${product.title}">
+        <div class="card-body text-center" style=" height:180px;">
+          <h5 class="card-title">${product.title}</h5>
+          <p class="card-text">${product.des}</p>
+        </div>
+      `;
+      cardCol.appendChild(card);
+
+      return cardCol;
+    }
+
+    // Update comparison based on selected products
+    function updateComparison() {
+      const selectedCards = document.getElementById('selectedCards');
+      selectedCards.innerHTML = '';  // Clear existing cards
+
+      const selectedProduct1Index = document.getElementById('productSelect1').value;
+      const selectedProduct2Index = document.getElementById('productSelect2').value;
+
+      if (selectedProduct1Index || selectedProduct2Index) {
+        if (selectedProduct1Index) {
+          const selectedProduct1 = productData[selectedProduct1Index];
+          selectedCards.appendChild(createProductCard(selectedProduct1));
+        }
+
+        if (selectedProduct2Index) {
+          const selectedProduct2 = productData[selectedProduct2Index];
+          selectedCards.appendChild(createProductCard(selectedProduct2));
+        }
+      }
+    }
+
+    // Initialize dropdowns and event listeners
+    window.onload = populateDropdowns;
+  </script>
+</body>
+</html>
