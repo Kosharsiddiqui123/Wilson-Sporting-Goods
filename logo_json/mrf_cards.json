@@ -1,0 +1,75 @@
+let data=[
+    {
+        "img":"mrf/mrf (1).jpeg",
+        "title":"MRF Genius Grand Limited Edition Cricket Bat (2024) - SH",
+        "des":"RS:20,000",
+        "link":"PDF/mrf1.docx",
+    },
+    {
+        "img":"mrf/mrf (1).jpg",
+        "title":"MRF VK 18 Grand Edition Cricket Bat | Top of the Range | 40mm Edges",
+        "des":"RS:35,000",
+        "link":"PDF/mrf2.docx",
+    },
+    {
+        "img":"mrf/mrf (1).png",
+        "title":"Buy MRF Cricket Bats - MRF Cricket Equipment – Highmark Cricket",
+        "des":"RS:5,000",
+        "link":"PDF/mrf3.docx",
+    },
+    {
+        "img":"mrf/mrf (2).jpg",
+        "title":"Cricket Bat - MRF-GENIUS RUN MACHINE",
+        "des":"RS:19,500",
+        "link":"PDF/mrf4.docx",
+    },
+    {
+        "img":"mrf/mrf (3).jpg",
+        "title":"MRF Sports Goods | Batting Gloves",
+        "des":"RS:10,000",
+        "link":"PDF/mrf5.docx",
+    },
+    {
+        "img":"mrf/mrf (4).jpg",
+        "title":"MRF Genius Grand Limited Edition Cricket Bat (2024) - SH",
+        "des":"RS:20,000",
+        "link":"PDF/mrf6.docx",
+    },
+    {
+        "img":"mrf/mrf (5).jpg",
+        "title":"MRF Sports Goods | Batting Gloves",
+        "des":"RS:8,000",
+        "link":"PDF/mrf7.docx",
+    },
+    {
+        "img":"mrf/mrf (6).jpg",
+        "title":"Buy MRF Cricket Pads online at best price",
+        "des":"RS:8,000",
+        "link":"PDF/mrf8.docx",
+    },
+    {
+        "img":"mrf/mrf (7).jpg",
+        "title":"Buy MRF Embossed Bat Sticker online at best price | The Cric Store",
+        "des":"RS:1,000",
+        "link":"PDF/mrf9.docx",
+    },
+    {
+        "img":"mrf/mrf (8).jpg",
+        "title":"Buy MRF Cricket Bats - MRF Cricket Equipment ",
+        "des":"RS:10,000",
+        "link":"PDF/mrf10.docx",
+    },
+    {
+        "img":"mrf/mrf (9).jpg",
+        "title":"MRF Sports Goods | Batting Gloves",
+        "des":"RS:12,000",
+        "link":"PDF/mrf11.docx",
+    },
+    {
+        "img":"mrf/mrf (10).jpg",
+        "title":"Buy MRF Cricket Bats - MRF Cricket Equipment – Highmark Cricket",
+        "des":"RS:10,000",
+        "link":"PDF/mrf12.docx",
+    }
+
+]

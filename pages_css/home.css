@@ -1,0 +1,316 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+/* marquee */
+ marquee {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ff0000;
+  animation-name: hehe;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  marquee {
+      font-size: 16px; /* Smaller text on tablets and smaller devices */
+      scrollamount: 6; /* Slow down the scrolling */
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+  marquee {
+      font-size: 14px; /* Even smaller text for mobile */
+      scrollamount: 4; /* Slow down further for better readability */
+  }
+}
+
+@keyframes hehe {
+  0% {
+    color: #8E0E00;
+  }
+
+  10% {
+    color: #1F1C18;
+  }
+
+  20% {
+    color: #8E0E00;
+  }
+
+  30% {
+    color: #1F1C18;
+  }
+
+  40% {
+    color: #8E0E00;
+  }
+
+  50% {
+    color: #1F1C18;
+  }
+
+  60% {
+    color: #8E0E00;
+  }
+
+  70% {
+    color: #1F1C18;
+  }
+
+  80% {
+    color: #8E0E00;
+  }
+
+  90% {
+    color: #1F1C18;
+  }
+
+  100% {
+    color: #8E0E00;
+  }
+}
+
+/* marquee */
+
+/* navbar */
+.e {
+  width: 100%;
+  max-width: 100%;
+}
+
+.logo {
+  height: 80px;
+  width: 250px;
+  padding-left: 10px;
+}
+
+.bg-dark:hover {
+  color: rgb(25, 146, 126) !important;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid white;
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* navbar */
+
+
+/* heading */
+h1 {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-family: serif;
+}
+
+h1::before {
+  background: #afc5cf;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+/* heading */
+
+
+/* jsoncards */
+.card {
+  border: none;
+  transition: 0.3s;
+  width: 40%;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.card:hover {
+  box-shadow: 0 80px 100px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+.category {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: inherit;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.category img {
+  border-radius: 50%;
+
+}
+
+.category img:hover {
+  border: 2px solid black;
+
+
+}
+
+p {
+  position: relative;
+  top: 65px;
+  font-size: 20px;
+  right: 56px;
+}
+
+/* jsoncards */
+/* cardofcategory */
+
+
+.card2 img {
+/* border-radius: 60%; */
+  /* max-width: 100%; */
+  height: auto;
+}
+
+.card2 {
+  width: 500px;
+  height: 250px;
+  margin: 30px auto;
+  margin-top: 50px;
+}
+
+.card2 button {
+  width: 120px;
+  position: relative;
+  left: 200px;
+  bottom: 50px;
+  background-color: #042444;
+  border-radius: 0;
+  border: none;
+}
+
+.card3 img {
+
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.card3 {
+  width: 500px;
+  height: 250px;
+}
+
+.card3 button {
+  width: 200px;
+  position: relative;
+  left: 90px;
+  bottom: 80px;
+  background-color: #042444;
+  border-radius: 0;
+  border: none;
+}
+
+
+.btn:hover {
+  background-color: #2C5364;
+  color: white;
+  transition: 1.05s;
+}
+
+.btn {
+  background-color: #2193b0;
+  color: white;
+  transition: 1.05s;
+}
+
+
+/* cardofcategory */
+
+/* category2 */
+.category2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.category2 img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.category2:hover {
+  box-shadow: 80 100px 120px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+/* category2 */
+
+/* category3 */
+.container3 {
+  background-color: white;
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* btn of viewall */
+.more {
+  border-radius: 0;
+  width: 150px;
+  margin-left: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #042444;
+  border: none;
+}
+
+/* btn of viewall */
+
+
+/* category3 */
+.modalbtn:hover {
+  background-color: #2C5364;
+
+}
+
+
+.ft {
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+} 

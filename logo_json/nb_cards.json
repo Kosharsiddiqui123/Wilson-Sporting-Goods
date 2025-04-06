@@ -1,0 +1,99 @@
+let data=[
+    {
+        "img":"NB/bat (1).jpg",
+        "title":"New Balance DC 900i PRO - EW. Cricket Bats",
+        "des":"$34,499.00",
+        "link":"PDF/nb1.docx",
+    },
+    {
+        "img":"NB/bat (2).jpg",
+        "title":"New Balance DC 1040 - EW. Cricket Bats",
+        "des":"$45,000.00",
+        "link":"PDF/nb2.docx",
+    },
+    {
+        "img":"NB/bat (3).jpg",
+        "title":"New Balance DC PE - EW. Original Players Bats",
+        "des":"$21,999.00 ",
+        "link":"PDF/nb3.docx",
+    },
+    {
+        "img":"NB/bat (4).jpg",
+        "title":"New Balance DC 700i PRO - EW. Cricket Bats",
+        "des":"$19,999.00",
+        "link":"PDF/nb4.docx",
+    },
+    {
+        "img":"NB/bat (5).jpg",
+        "title":"New Balance TC PE - EW. Original Players Bats",
+        "des":"$21,999.00 ",
+        "link":"PDF/nb5.docx",
+    },
+    {
+        "img":"NB/bat (6).jpg",
+        "title":"New Balance TC 1100i MAX - EW. Cricket Bats",
+        "des":"$41,999.00",
+        "link":"PDF/nb6.docx",
+    },
+    {
+        "img":"NB/bat (7).jpg",
+        "title":"New Balance DC 800i PRO - EW. Cricket Bats",
+        "des":"$ 24,999.00",
+        "link":"PDF/nb7.docx",
+    },
+    {
+        "img":"NB/nb (2).jpg",
+        "title":"DC 600 Jnr | Kid's Bats",
+        "des":"$330.00",
+        "link":"PDF/nb8.docx",
+    },
+    {
+        "img":"NB/nb (5).jpg",
+        "title":"DC 600 | Unisex Bats",
+        "des":"$590.00",
+        "link":"PDF/nb9.docx",
+    },
+    {
+        "img":"NB/nb (6).jpg",
+        "title":"TC 800 Max | Unisex Bats",
+        "des":"$625.00",
+        "link":"PDF/nb10.docx",
+    },
+    {
+        "img":"NB/nb (8).jpg",
+        "title":"Burn 800 Pro | Unisex Bats",
+        "des":"$750.00",
+        "link":"PDF/nb11.docx",
+    },
+    {
+        "img":"NB/nb (1).webp",
+        "title":"TCS London Marathon | Women's Shoes",
+        "des":"$400.00",
+        "link":"",
+    },
+    {
+        "img":"NB/nb (6).webp",
+        "title":"9060 | Unisex Shoes",
+        "des":"$250.00",
+        "link":"",
+    },
+    {
+        "img":"NB/nb (5).webp",
+        "title":"Thisisneverthat 1000 | Unisex Shoes",
+        "des":"$270.00",
+        "link":"",
+    },
+    {
+        "img":"NB/nb (3).webp",
+        "title":"FuelCell 4030 V5 | Men's Shoes",
+        "des":"$170.00",
+        "link":"",
+    },
+    {
+        "img":"NB/nb (2).webp",
+        "title":"FuelCell 10v6 | Men's Shoes",
+        "des":"$196.00",
+        "link":"",
+    },
+
+]

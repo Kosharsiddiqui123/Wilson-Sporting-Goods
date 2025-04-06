@@ -1,0 +1,99 @@
+let data=[
+    {
+        "img":"puma_pic/puma (18).jpg",
+        "title":"PUMA x LAMELO BALL Golden Child Men's Basketball Shirt",
+        "des":"$75.00",
+        "link":"PDF/puma1.docx",
+    },
+    {
+        "img":"puma_pic/puma (17).jpg",
+        "title":"FENTY x PUMA Avanti C",
+        "des":"$100.00",
+        "link":"PDF/puma2.docx",
+    },
+    {
+        "img":"puma_pic/puma (3).jpg",
+        "title":"FENTY x PUMA Avanti LS Stitched",
+        "des":"$120.00",
+        "link":"PDF/puma3.docx",
+    },
+    {
+        "img":"puma_pic/puma (4).jpg",
+        "title":"Accelerate Turbo Women's Court Shoes",
+        "des":"$59.99",
+        "link":"PDF/puma4.docx",
+    },
+    {
+        "img":"puma_pic/puma (5).jpg",
+        "title":"Eliminate NITRO™ SQD",
+        "des":"$165.00",
+        "link":"PDF/puma5.docx",
+    },
+    {
+        "img":"puma_pic/puma (6).jpg",
+        "title":"NOVA Elite Padel",
+        "des":"$130.00",
+        "link":"PDF/puma6.docx",
+    },
+    {
+        "img":"puma_pic/puma (2).jpg",
+        "title":"NOVA Elite",
+        "des":"$84.99",
+        "link":"PDF/puma7.docx",
+    },
+    {
+        "img":"puma_pic/puma (8).jpg",
+        "title":"Accelerate NITRO™ SQD",
+        "des":"$102.99",
+        "link":"PDF/puma8.docx",
+    },
+    {
+        "img":"puma_pic/puma (9).jpg",
+        "title":"DARE TO Jer-SHE",
+        "des":"$85.00",
+        "link":"PDF/puma9.docx",
+    },
+    {
+        "img":"puma_pic/puma (10).jpg",
+        "title":"Women's Wide Running Shoes",
+        "des":"$39.99",
+        "link":"PDF/puma10.docx",
+    },
+    {
+        "img":"puma_pic/puma (11).jpg",
+        "title":"Women's Running Shoes",
+        "des":"$35.99",
+        "link":"PDF/puma11.docx",
+    },
+    {
+        "img":"puma_pic/puma (12).jpg",
+       "title":"Women's training Shoes",
+        "des":"$39.99",
+        "link":"PDF/puma12.docx",
+    },
+    {
+        "img":"puma_pic/puma (13).jpg",
+        "title":"Accelerate NITRO™ SQD blue",
+        "des":"$102.99",
+        "link":"PDF/puma13.docx",
+    },
+    {
+        "img":"puma_pic/puma (14).jpg",
+        "title":"Keeping Gloves",
+        "des":"$102.99",
+        "link":"PDF/puma14.docx",
+    },
+    {
+        "img":"puma_pic/puma (15).jpg",
+        "title":" Wide Running Shoes",
+        "des":"$89.99",
+        "link":"PDF/puma15.docx",
+    },
+    {
+        "img":"puma_pic/puma (16).jpg",
+        "title":"Women's training Shoes collections",
+        "des":"$58.99",
+        "link":"PDF/puma16.docx",
+    },
+
+]

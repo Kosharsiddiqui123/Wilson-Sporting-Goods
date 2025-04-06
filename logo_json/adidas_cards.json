@@ -1,0 +1,115 @@
+let data=[
+    {
+        "img":"adidas/adidas (1).jpg",
+        "title":"$60",
+        "des":"Boston Marathon® 2025 Short Tights",
+        "link":"PDF/adidas1.docx",
+        
+    },
+    {
+        "img":"adidas/adidas (2).jpg",
+        "title":"$85",
+        "des":"Adicolor Classic Firebird Loose Track Top",
+        "link":"PDF/adidas2.docx",
+
+    },
+    {
+        "img":"adidas/adidas (3).jpg",
+        "title":"$110",
+        "des":"adidas Z.N.E. Woven Full-Zip Track Top",
+        "link":"PDF/adidas3.docx",
+
+    },
+    {
+        "img":"adidas/adidas (4).jpg",
+        "title":"$45",
+        "des":"adidas Z.N.E. Shorts Kids",
+        "link":"PDF/adidas4.docx",
+
+    },
+    {
+        "img":"adidas/adidas (5).jpg",
+        "title":"$35",
+        "des":"adidas Z.N.E. Tee Kids",
+        "link":"PDF/adidas5.docx",
+
+    },
+    {
+        "img":"adidas/adidas (6).jpg",
+        "title":"$110",
+        "des":"adidas Z.N.E. Woven Full-Zip Track Top",
+        "link":"PDF/adidas6.docx",
+
+    },
+    {
+        "img":"adidas/adidas (7).jpg",
+        "title":"$55",
+        "des":"adidas Z.N.E. Woven Shorts",
+        "link":"PDF/adidas7.docx",
+
+    },
+    {
+        "img":"adidas/adidas (8).jpg",
+        "title":"$60",
+        "des":"City Explorer Backpack",
+        "link":"PDF/adidas8.docx",
+
+    },
+    {
+        "img":"adidas/adidas (9).jpg",
+        "title":"$50",
+        "des":"MERCEDES - AMG PETRONAS FORMULA ",
+        "link":"PDF/adidas9.docx",
+
+    },
+    {
+        "img":"adidas/adidas (10).jpg",
+        "title":"$80",
+        "des":"Adicolor Classics Firebird Track Jacket",
+        "link":"PDF/adidas10.docx",
+
+    },
+    {
+        "img":"adidas/adidas (11).jpg",
+        "title":"$70",
+        "des":"Run 70s 2.0 Farm Shoes",
+        "link":"PDF/adidas11.docx",
+
+    },
+    {
+        "img":"adidas/adidas (12).jpg",
+        "title":"$75",
+        "des":"Lightblaze Shoes Kids",
+        "link":"PDF/adidas12.docx",
+
+    },
+    {
+        "img":"adidas/adidas (13).jpg",
+        "title":"$38",
+        "des":"adidas x FARM Classic Backpack",
+        "link":"PDF/adidas13.docx",
+
+    },
+    {
+        "img":"adidas/adidas (14).jpg",
+        "title":"$250",
+        "des":"Copa Pure 3 Elite Laceless Firm Ground Cleats",
+        "link":"PDF/adidas14.docx",
+
+    },
+    {
+        "img":"adidas/adidas (15).jpg",
+        "title":"$260",
+        "des":"Predator Elite Firm Ground Cleats",
+        "link":"PDF/adidas15.docx",
+
+    },
+    {
+        "img":"adidas/adidas (16).jpg",
+        "title":"$30",
+        "des":"Essentials Single Jersey 3-Stripes Tee",
+        "link":"PDF/adidas16.docx",
+
+    }
+
+]

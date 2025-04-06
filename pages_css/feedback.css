@@ -1,0 +1,260 @@
+marquee {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ff0000;
+  animation-name: hehe;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes hehe {
+    0% {
+      color: #8E0E00;
+    }
+
+    10% {
+      color: #1F1C18;
+    }
+
+    20% {
+      color: #8E0E00;
+    }
+
+    30% {
+      color: #1F1C18;
+    }
+
+    40% {
+      color: #8E0E00;
+    }
+
+    50% {
+      color: #1F1C18;
+    }
+
+    60% {
+      color: #8E0E00;
+    }
+
+    70% {
+      color: #1F1C18;
+    }
+
+    80% {
+      color: #8E0E00;
+    }
+
+    90% {
+      color: #1F1C18;
+    }
+
+    100% {
+      color: #8E0E00;
+    }
+  }
+
+  /* marquee */
+   /* navbar */
+   .e{
+    width: 100%;
+    max-width: 100%;
+    }
+
+    .logo{
+    height: 80px;
+    width: 250px;
+    padding-left: 10px;
+   }
+
+
+  .nav-link:hover{
+    border-bottom: 2px solid white;
+
+  }
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+  /* navbar */
+  /* Feedback section styles */
+
+
+
+.wrapper {
+  width: 450px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  height: 480px;
+  border-radius:20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  background-color: rgba(300, 255, 255, 0.5);
+  z-index: 1;
+  }
+
+.chk .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.chk .content {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.rate-box {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.2rem;
+}
+
+.chk .rate-box input[type="radio"] {
+    display: none;
+}
+
+.chk .rate-box label.star {
+    cursor: pointer;
+    font-size: 60px;
+}
+.rate-box input {
+  display: none;
+}
+.rate-box input:hover ~ .star:before {
+  color:#bd8d6e6b;
+}
+.rate-box input:active + .star:before {
+  transform: scale(0.9);
+}
+.rate-box input:checked ~ .star:before {
+  color:  #2C5364;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), -3px -3px 8px rgba(255, 255, 255, 0.8);
+}
+.chk .rate-box label.star:before {
+    content: '\2605';
+    color: #2d949652;
+}
+.rate-box .star:before {
+  content: "★";
+  display: inline-block;
+  font-family: "Potta One", cursive;
+  font-size: 3.6rem;
+  cursor: pointer;
+  color: #0000;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+  background-color: #aaa;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 0.3s;
+}
+.chk .rate-box input[type="radio"]:checked ~ label.star:before {
+    color: #203A43;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  width: 100%;
+  padding: 10px;
+  color: inherit;
+  font-family: inherit;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.3), inset -2px -2px 8px rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.chk .submit-btn {
+    background-color: #203A43;
+    color: white;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.chk .submit-btn:hover {
+    background-color: #2C5364;
+}
+textarea:focus {
+  outline-color: #2D9596;;
+}
+
+.submit-btn {
+  padding: 10px 25px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), -3px -3px 8px rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color:  #203A43;
+  transition: all 0.2s;
+}
+.submit-btn:active {
+  transform: translate(2px, 2px);
+}
+
+  .accordion {
+    background-color: #203A43;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), -3px -3px 8px rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.panel {
+    display: none;
+    padding: 0 20px;
+    background-color: #2d949613;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.panel p {
+    margin: 10px 0;
+}
+
+.fa-chevron-down {
+    float: right;
+    color: white;
+}
+ /* heading */
+ h1 {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+  text-align: center; 
+  font-family: serif;
+}
+
+h1::before {
+  background:#afc5cf;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+ /* heading */

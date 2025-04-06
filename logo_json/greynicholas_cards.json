@@ -1,0 +1,81 @@
+let data=[
+    {
+        "img":"greynicholas/grey (1).jpg",
+        "title":"Velocity Socks",
+        "des":"$14.99",
+        "link":"PDF/grey1.docx",
+
+    },
+    {
+        "img":"greynicholas/grey (2).jpg",
+        "title":"Mini Soft Feel Armguard",
+        "des":"$19.99",
+        "link":"PDF/grey2.docx",
+    },
+    {
+        "img":"greynicholas/grey (3).jpg",
+        "title":"Test Carbon Abdo Guard",
+        "des":"$19.99",
+        "link":"PDF/grey3.docx",
+    },
+    {
+        "img":"greynicholas/grey (4).jpg",
+        "title":"Classic Ultimate Duffle Bag",
+        "des":"$79.99",
+        "link":"PDF/grey4.docx",
+    },
+    {
+        "img":"greynicholas/grey (5).jpg",
+        "title":"Classic Prestige Wicketkeeping Glove",
+        "des":"$99.99",
+        "link":"PDF/grey5.docx",
+    },
+    {
+        "img":"greynicholas/grey (6).jpg",
+        "title":"Stratos 1.0 Player Edition Cricket Bat - Adult (Pope set-up)",
+        "des":"$499.99",
+        "link":"PDF/grey6.docx",
+    },
+    {
+        "img":"greynicholas/grey (7).jpg",
+        "title":"Kane Williamson Players Edition Nova 2.0 Cricket Bat - Adult",
+        "des":"$499.99",
+        "link":"PDF/grey7.docx",
+    },
+    {
+        "img":"greynicholas/grey (8).jpg",
+        "title":"Stratos 1.0 750 Batting Gloves",
+        "des":"$74.99",
+        "link":"PDF/grey8.docx",
+    },
+    {
+        "img":"greynicholas/grey (9).jpg",
+        "title":"Classic Players Edition Batting Pads",
+        "des":"$174.99",
+        "link":"PDF/grey9.docx",
+    },
+    {
+        "img":"greynicholas/grey (10).jpg",
+        "title":"Stratos 1.0 Batting Pads",
+        "des":"$89.99",
+        "link":"PDF/grey10.docx",
+    },
+    {
+        "img":"greynicholas/grey (12).jpg",
+        "title":"Mini Pro Performance Armguard",
+        "des":"$19.99",
+        "link":"PDF/grey11.docx",
+    },
+    {
+        "img":"greynicholas/grey (13).jpg",
+        "title":"Catching Glove",
+        "des":"$16.99",
+        "link":"PDF/grey12.docx",
+    },
+    {
+        "img":"greynicholas/grey (15).jpg",
+        "title":"Pro T20 Short Sleeve Junior Shirt",
+        "des":"$24.99",
+        "link":"PDF/grey13.docx",
+    }
+]

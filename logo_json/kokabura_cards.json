@@ -1,0 +1,69 @@
+let data=[
+    {
+        "img":"kokaburra/kokabura (1).jpg",
+        "title":"RETRO ABSOLUTE BELTA BUNDLE",
+        "des":"RS:45,000",
+        "link":"PDF/kokabura1.docx",
+    },
+    {
+        "img":"kokaburra/kokabura (2).jpg",
+        "title":"Aura Cricket Collection | 2024 Range",
+        "des":"RS:1,00,000",
+        "link":"PDF/kokabura2.docx",
+    },
+    {
+        "img":"kokaburra/kokabura (3).jpg",
+        "title":"Cricket Batting Gloves",
+        "des":"RS:5,000",
+        "link":"PDF/kokabura3.docx",
+    },
+    {
+        "img":"kokaburra/kokabura (4).jpg",
+        "title":"Cricket Batting Pads",
+        "des":"RS:20,000",
+        "link":"PDF/kokabura4.docx",
+    },
+    {
+        "img":"kokaburra/kokabura (5).jpg",
+        "title":"Wicket Keeping Gear",
+        "des":"RS:80,000",
+        "link":"PDF/kokabura5.docx",
+    },
+    {
+        "img":"kokaburra/kokabura (7).jpg",
+        "title":"Highest quality hockey ball in the world",
+        "des":"RS:50,000",
+        "link":"PDF/kokabura6.docx",
+    },
+    {
+        "img":"kokaburra/kokabura (8).jpg",
+        "title":"Hockey Gloves",
+        "des":"RS:2,000",
+        "link":"PDF/kokabura7.docx",
+    },
+    {
+        "img":"kokaburra/kokabura (9).jpg",
+        "title":"2025 Kookaburra Hockey Sticks",
+        "des":"RS:150,000",
+        "link":"PDF/kokabura8.docx",
+    },
+    {
+        "img":"kokaburra/kokabura (10).jpg",
+        "title":"RETRO SUPA BELTA CRICKET BAT",
+        "des":"RS:180,000",
+        "link":"PDF/kokabura9.docx",
+    },
+    {
+        "img":"kokaburra/kokabura (11).jpg",
+        "title":"KOOKABURRA PRO SPIRIT HOCKEY STICK 2025",
+        "des":"RS:2,00,000",
+        "link":"PDF/kokabura10.docx",
+    },
+    {
+        "img":"kokaburra/kokabura (12).jpg",
+        "title":"NZ WARRIORS NRL ADULT JERSEY",
+        "des":"RS:30,000",
+        "link":"PDF/kokabura11.docx",
+    }
+
+]
