@@ -1,0 +1,79 @@
+let data=[
+    {
+        "img" : "jersey/jersey (1).jpg",
+        "title" : "SS Ton Reserve Edition English Willow Cricket Bat Size 6",
+        "des" : "Rs.1,378.28 PKR",
+        "link":"PDF/jersey1.docx",
+
+    },
+    {
+        "img" : "jersey/jersey (2).jpg",
+        "title" : "SF Chamois Padded Wicket Keeping Inner Gloves Size Youth",
+        "des" : "Rs.2,378.28 PKR",
+        "link":"PDF/jersey2.docx",
+
+    },
+    {
+        "img" : "jersey/jersey (3).jpg",
+        "title" : "Moonwalkr 2.0 Cricket Batting Combo Thigh Guard Pad Navy Blue",
+        "des" : "Rs.3,158.28 PKR",
+        "link":"PDF/jersey3.docx",
+    },
+    {
+        "img" : "jersey/jersey (4).jpg",
+        "title" : "SS Matrix Cricket Helmet Mens and Boys Size",
+        "des" : "Rs.2,378.28 PKR",
+        "link":"PDF/jersey4.docx",
+    }, 
+    {
+        "img" : "jersey/jersey (5).jpg",
+        "title" : "Adidas India Cricket Team Jersey Fan Edition Size",
+        "des" : "Rs.2,378.28 PKR",
+        "link":"PDF/jersey5.docx",
+    }, 
+    {
+        "img" : "jersey/jersey (6).jpg",
+        "title" : "SS Millennium Pro White Cricket Batting Gloves Size",
+        "des" : "Rs.3,278.28 PKR",
+        "link":"PDF/jersey6.docx",
+    },
+     {
+        "img" : "jersey/jersey (7).jpg",
+        "title" : "Shrey Match 3.0 Cricket Helmet",
+        "des" : "Rs.1,378.28 PKR",
+        "link":"PDF/jersey7.docx",
+    }, 
+    {
+        "img" : "jersey/jersey (8).jpg",
+        "title" : "Asics GEL Peake 2 Cricket Shoes White and Tuna Blue",
+        "des" : "Rs.2,378.28 PKR",
+        "link":"PDF/jersey8.docx",
+    },
+    {
+        "img" : "jersey/jersey (9).jpg",
+        "title" : "Adidas India Cricket Team Jersey Fan Edition Size",
+        "des" : "Rs.1,378.28 PKR",
+        "link":"PDF/jersey9.docx",
+    }, 
+    {
+        "img" : "jersey/jersey (10).jpg",
+        "title" : "SS Millennium Pro White Cricket Batting Gloves Size",
+        "des" : "Rs.3,478.28 PKR",
+        "link":"PDF/jersey10.docx",
+    },
+     {
+        "img" : "jersey/jersey (11).jpg",
+        "title" : "Shrey Match 3.0 Cricket Helmet",
+        "des" : "Rs.2,378.28 PKR",
+        "link":"PDF/jersey11.docx",
+    }, 
+    {
+        "img" : "jersey/jersey (12).jpg",
+        "title" : "Asics GEL Peake 2 Cricket Shoes White and Tuna Blue",
+        "des" : "Rs.3,378.28 PKR",
+        "link":"PDF/jersey12.docx",
+    }
+  
+
+
+]

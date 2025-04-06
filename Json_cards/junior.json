@@ -1,0 +1,55 @@
+let data=[
+    {
+        "img" : "junior/junior (1).jpg",
+        "title" : "SG Test Cricket Batting Gloves Regular ",
+        "des" : "Rs.9,302.11 PKR",
+        "link":"PDF/junior1.docx",
+
+    },
+    {
+        "img" : "junior/junior (2).jpg",
+        "title" : "SG Ultimate Cricket Batting Combo Thigh Guard Pad Regular",
+        "des" : "Rs.5,058.37 PKR",
+        "link":"PDF/junior2.docx",
+
+    },
+    {
+        "img" : "junior/junior (3).jpg",
+        "title" : "Kookaburra Pro 600 Cricket Helmet Size Regular ",
+        "des" : "Rs.14,486.06 PKR",
+        "link":"PDF/junior3.docx",
+    },
+    {
+        "img" : "junior/junior (4).jpg",
+        "title" : "SS Premium Cricket Kit Bag Regular ",
+        "des" : "Rs.3,509.62 PKR",
+        "link":"PDF/junior4.docx",
+    }, 
+    {
+        "img" : "junior/junior (5).jpg",
+        "title" : "Gortonshire Force Full Cricket Kit Kashmir Willow Size Regular",
+        "des" : "Rs.38,634.85 PKR",
+        "link":"PDF/junior5.docx",
+    }, 
+    {
+        "img" : "junior/junior (6).jpg",
+        "title" : "SS Platino Cricket Batting Leg Guard Pads Regular",
+        "des" : "Rs.9,063.85 PKR",
+        "link":"PDF/junior6.docx",
+    },
+     {
+        "img" : "junior/junior (7).jpg",
+        "title" : "Savage Edition English Willow Cricket Bat Regular ",
+        "des" : "Rs.45,155.02 PKR",
+        "link":"PDF/junior7.docx",
+    }, 
+    {
+        "img" : "junior/junior (1).png",
+        "title" : "SG CHEVTECH Cricket Bat Handle Grip for Size SH (3Pcs) Regular",
+        "des" : "Rs.1,503.66 PKR",
+        "link":"PDF/junior8.docx",
+    }
+  
+
+
+]

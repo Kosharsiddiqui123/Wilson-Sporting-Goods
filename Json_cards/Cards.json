@@ -1,0 +1,100 @@
+let data=[
+    {
+        "img" : "feature/feature (1).jpg",
+        "title" : "SS Ton Reserve Edition English Willow Cricket Bat Size 6",
+        "des" : "Rs.74,058.03 PKR",
+        "link":"PDF/FEATURED1.docx",
+
+    },
+    {
+        "img" : "feature/feature (12).jpg",
+        "title" : "Shrey Meta Duffle Wheelie 150 Cricket Kit Bag Colour Black",
+        "des" : "Rs.30,585.25 PKR",
+        "link":"PDF/FEATURED13.docx",
+    },
+    {
+        "img" : "feature/feature (2).jpg",
+        "title" : "Moonwalkr 2.0 Cricket Batting Combo Thigh Guard Pad Navy Blue",
+        "des" : "Rs.7,378.28 PKR",
+        "link":"PDF/FEATURED3.docx",
+    },
+    {
+        "img" : "feature/feature (4).jpg",
+        "title" : "Adidas India Cricket Team Jersey Fan Edition Size",
+        "des" : "Rs.2,411.66 PKR",
+        "link":"PDF/FEATURED5.docx",
+    }, 
+    {
+        "img" : "feature/feature (5).jpg",
+        "title" : "SS Millennium Pro White Cricket Batting Gloves Size",
+        "des" : "Rs.14,378.28 PKR",
+        "link":"PDF/FEATURED6.docx",
+    }, 
+    {
+        "img" : "feature/feature (11).jpg",
+        "title" : "Shrey Meta Duffle 100 Cricket Kit Bag Colour Black",
+        "des" : "Rs.34,378.28 PKR",
+        "link":"PDF/FEATURED12.docx",
+    },
+    {
+        "img" : "feature/feature (8).jpg",
+        "title" : "Gray Nicolls MCP Protection Cricket Batting Inner Gloves Mens Size",
+        "des" : "Rs.1,478.28 PKR",
+        "link":"PDF/FEATURED9.docx",
+    }, 
+    {
+        "img" : "feature/feature (9).jpg",
+        "title" : "Moonwalkr 2.0 Cricket Batting Leg Guard Pads Blue",
+        "des" : "Rs.7,378.28 PKR",
+        "link":"PDF/FEATURED10.docx",
+    }, 
+    {
+        "img" : "feature/feature (10).jpg",
+        "title" : "Kookaburra Turf White Official ODI and T20 Cricket Ball",
+        "des" : "Rs.57,378.28 PKR",
+        "link":"PDF/FEATURED11.docx",
+    }, 
+    {
+        "img" : "feature/feature (22).jpg",
+        "title" : "SS Players 3000 English Willow Cricket Bat Size SH",
+        "des" : "Rs.72,378.28 PKR",
+        "link":"PDF/FEATURED23.docx",
+    },
+    {
+        "img" : "feature/feature (13).jpg",
+        "title" : "Adidas Adi Power Vector 20 Spikes Cricket Shoes",
+        "des" : "Rs.32,378.28 PKR",
+        "link":"PDF/FEATURED14.docx",
+    },
+    {
+        "img" : "feature/feature (15).jpg",
+        "title" : "Asics Gel Gully 7 White Silver Cricket Shoes",
+        "des" : "Rs.41,378.28 PKR",
+        "link":"PDF/FEATURED16.docx",
+    },
+    {
+        "img" : "feature/feature (16).jpg",
+        "title" : "SG Players Xtreme English Willow Cricket Bat Size SH",
+        "des" : "Rs.76,368.28 PKR",
+        "link":"PDF/FEATURED17.docx",
+    }, 
+    {
+        "img" : "feature/feature (17).jpg",
+        "title" : "Gray Nicolls GN83 Scoop Edition English Willow Full Cricket Kit Size SH",
+        "des" : "Rs.410,378.28 PKR",
+        "link":"PDF/FEATURED18.docx",
+    },
+    {
+        "img" : "feature/feature (22).jpg",
+        "title" : "SS Players 3000 English Willow Cricket Bat Size SH",
+        "des" : "Rs.72,378.28 PKR",
+        "link":"PDF/FEATURED23.docx",
+    },
+    {
+        "img" : "feature/feature (6).jpg",
+        "title" : "Shrey Match 3.0 Cricket Helmet",
+        "des" : "Rs.14,781.28 PKR",
+        "link":"PDF/FEATURED7.docx",
+    }
+
+]

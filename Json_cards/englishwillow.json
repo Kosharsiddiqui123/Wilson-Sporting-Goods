@@ -1,0 +1,29 @@
+let data=[
+    {
+        "img" : "customize_bats/english_willow (1).jpg",
+        "title" : "Customise Virat Kohli Profile English Willow Cricket Bat Size SH",
+        "des" : "Rs.48,374.86 PKR",
+        "link":"PDF/english1.docx",
+
+    },
+    {
+        "img" : "customize_bats/english_willow (3).jpg",
+        "title" : "Customise MSD Profile English Willow Cricket Bat Size SH",
+        "des" : "Rs.48,374.86 PKR",
+        "link":"PDF/english2.docx",
+    },
+    {
+        "img" : "customize_bats/english_willow (4).jpg",
+        "title" : "Customise Rohit Sharma Profile English Willow Cricket Bat Size SH",
+        "des" : "Rs.48,374.86 PKR",
+        "link":"PDF/english3.docx",
+
+    },
+    {
+        "img" : "customize_bats/english_willow (5).jpg",
+        "title" : "Customise SRT Profile English Willow Cricket Bat Size SH",
+        "des" : "Rs.48,374.86 PKR",
+        "link":"PDF/english4.docx",
+
+    }
+]

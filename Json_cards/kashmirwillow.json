@@ -1,0 +1,22 @@
+let data=[
+    {
+        "img" : "customize_bats/kashmir_willow (1).jpg",
+        "title" : "Customise Rohit Sharma Profile Kashmir Willow Cricket Bat Size SH",
+        "des" : "Rs.13,681.10 PKR",
+        "link":"PDF/kashmir1.docx",
+
+    },
+    {
+        "img" : "customize_bats/kashmir_willow (2).jpg",
+        "title" : "Customise Virat Kohli Profile Kashmir Willow Cricket Bat Size SH",
+        "des" : "Rs.13,681.10 PKR",
+        "link":"PDF/kashmir2.docx",
+
+    },
+    {
+        "img" : "customize_bats/kashmir_willow (3).jpg",
+        "title" : "Customise SRT Profile Kashmir Willow Cricket Bat Size SH",
+        "des" : "Rs.13,681.10 PKR",
+        "link":"PDF/kashmir3.docx",
+    }
+]

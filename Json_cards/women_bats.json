@@ -1,0 +1,76 @@
+let data=[
+    {
+        "img" : "women_bats/bat (1).jpg",
+        "title" : "SS Ton Reserve Edition English Willow Cricket Bat Size 6",
+        "des" : "Rs.49,260.32 PKR",
+        "link":"PDF/women1.docx",
+
+    },
+    {
+        "img" : "women_bats/bat (2).jpg",
+        "title" : "SF Chamois Padded Wicket Keeping Inner Gloves Size Youth",
+        "des" : "Rs.28,999.32 PKR",
+        "link":"PDF/women2.docx",
+    },
+    {
+        "img" : "women_bats/bat (3).jpg",
+        "title" : "Moonwalkr 2.0 Cricket Batting Combo Thigh Guard Pad Navy Blue",
+        "des" : "Rs.40,400.32 PKR",
+        "link":"PDF/women3.docx",
+    },
+    {
+        "img" : "women_bats/bat (4).jpg",
+        "title" : "SS Matrix Cricket Helmet Mens and Boys Size",
+        "des" : "Rs.39,860.32 PKR",
+        "link":"PDF/women4.docx",
+    }, 
+    {
+        "img" : "women_bats/bat (5).jpg",
+        "title" : "Adidas India Cricket Team Jersey Fan Edition Size",
+        "des" : "Rs.28,960.32 PKR",
+        "link":"PDF/women5.docx",
+    }, 
+    {
+        "img" : "women_bats/bat (6).jpg",
+        "title" : "SS Millennium Pro White Cricket Batting Gloves Size",
+        "des" : "Rs.47,260.32 PKR",
+        "link":"PDF/women6.docx",
+    },
+     {
+        "img" : "women_bats/bat (7).jpg",
+        "title" : "Shrey Match 3.0 Cricket Helmet",
+        "des" : "Rs.59,260.32 PKR",
+        "link":"PDF/women7.docx",
+    }, 
+    {
+        "img" : "women_bats/bat (8).jpg",
+        "title" : "Asics GEL Peake 2 Cricket Shoes White and Tuna Blue",
+        "des" : "Rs.46,260.32 PKR",
+        "link":"PDF/women8.docx",
+    }, 
+    {
+        "img" : "women_bats/bat (9).jpg",
+        "title" : "Gray Nicolls MCP Protection Cricket Batting Inner Gloves Mens Size",
+        "des" : "Rs.59,060.32 PKR",
+        "link":"PDF/women9.docx",
+    }, 
+    {
+        "img" : "women_bats/bat (10).jpg",
+        "title" : "Moonwalkr 2.0 Cricket Batting Leg Guard Pads Blue",
+        "des" : "Rs.69,200.32 PKR",
+        "link":"PDF/women10.docx",
+    }, 
+    {
+        "img" : "women_bats/bat (11).jpg",
+        "title" : "Kookaburra Turf White Official ODI and T20 Cricket Ball",
+        "des" : "Rs.29,100.32 PKR",
+        "link":"PDF/women11.docx",
+    }, 
+    
+    {
+        "img" : "women_bats/bat (12).jpg",
+        "title" : "Shrey Meta Duffle 100 Cricket Kit Bag Colour Black",
+        "des" : "Rs.49,260.32 PKR",
+        "link":"PDF/women12.docx",
+    }
+]
